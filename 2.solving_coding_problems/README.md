@@ -1,5 +1,14 @@
 # Solving Coding Problems
 
+This is a short module.
+
+It goes over a simple problem and the steps you have to go through.
+
+## Skip this section if
+
+1. You feel you have a data structures foundation
+2. You think you have enough coding interviews experience.
+
 ## What are companies looking for?
 
 1. Analytic Skills
