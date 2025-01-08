@@ -50,18 +50,6 @@ func slicesOperations101() {
 	fmt.Println()
 }
 
-func rotate(nums []int, k int) {
-	if len(nums) < 2 {
-		return
-	}
-
-	separation := len(nums) - k
-	nums = append(nums[separation:], nums[:separation]...)
-	nums = slices.Concat(nums[separation:], nums[:separation])
-
-	fmt.Println(nums)
-}
-
 func main() {
 	/**
 	 * This is a language thing:
@@ -71,9 +59,4 @@ func main() {
 	 */
 
 	slicesOperations101()
-
-	case1 := []int{1, 2, 3, 4, 5, 6, 7}
-	// case2 := []int{-1, -100, 3, 99}
-	// case3 := []int{4, 2, 4, 0, 0, 3, 0, 5, 1, 0}
-	rotate(case1, 3)
 }

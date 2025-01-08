@@ -34,7 +34,7 @@ Fruits at position 0 = `fruits[0]` is `apple`
 
 Pets at position 2 = `pets[0]` is `parrots`
 
-## Resources
+# Resources
 
 1. [Arrays vs Slices in Go](https://github.com/EmilianoCervantes/go-learnings/blob/main/1-go-101/3-collections/collections.go)
 2. [Unshift in Go](https://go.dev/play/p/wNgO9LeX514)
