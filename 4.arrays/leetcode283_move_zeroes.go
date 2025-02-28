@@ -3,7 +3,7 @@ package main
 /**
  * LEETCODE PROBLEM #283
  *
- * Description Directly from: https://leetcode.com/problems/move-zeroes/description/
+ * Description Directly from: https://leetcode.com/problems/move-zeroes/
  *
  * Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
  * Note that you must do this in-place WITHOUT making a copy of the array.
@@ -112,8 +112,8 @@ func MoveZeroesSolShort(nums []int) {
 	for i := 0; i < len(nums); i++ {
 		currValue := nums[i]
 
-		// I found a zero
-		if currValue != 0 { // I found a value that is not zero
+		// I found a value that is not zero
+		if currValue != 0 {
 			if nums[pointer1] == 0 {
 				nums[pointer1] = currValue
 				nums[i] = 0

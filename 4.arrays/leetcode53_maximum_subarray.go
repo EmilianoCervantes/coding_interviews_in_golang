@@ -5,7 +5,7 @@ import "math"
 /**
  * LEETCODE PROBLEM #53
  *
- * Description Directly from: https://leetcode.com/problems/maximum-subarray/description/
+ * Description Directly from: https://leetcode.com/problems/maximum-subarray/
  *
  * Given an integer array nums, find the subarray with the largest sum, and return its sum.
  * You can return the answer in any order.
@@ -302,8 +302,9 @@ func MaxSubArray(nums []int) int {
 	 * I'll say these 2 things:
 	 * 1) If you open leetcode and looked at their hint, yes, it can be solved by dividing an conquer.
 	 * 2) It can also be solved by iterating ONCE through the array = O(n).
+	 * 3) It can be solved with nested for loops.
 	 * Hint: remember, the issue are the negative numbers... and yes, at first it took me a few hours, but it was a great mental exercise.
-	 * Afterwards, yes, I went out and learned there is something called Kadane's algorithm 😐.
+	 * Afterwards, I have to admit, I went out and learned there is something called Kadane's algorithm 😐.
 	 */
 
 	// BEFORE reading the next code, check all the attempts and see what you would improve in each iteration or if you had gone down in a completely different path.

@@ -5,7 +5,7 @@ import "slices"
 /**
  * LEETCODE PROBLEM #189
  *
- * Description Directly from: https://leetcode.com/problems/rotate-array/description/
+ * Description Directly from: https://leetcode.com/problems/rotate-array/
  *
  * Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
  *
@@ -30,7 +30,7 @@ import "slices"
  * 0 <= k <= 105
  */
 
-// Leetcode challenge us to do it with SPACE OF O(1)!
+// Leetcode challenges us to do it with SPACE OF O(1)!
 func RotateForLoop(nums []int, k int) {
 	if len(nums) < 2 {
 		return
