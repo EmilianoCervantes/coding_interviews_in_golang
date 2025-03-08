@@ -1,11 +1,23 @@
 {
   "cSpell.words": [
+    "Emiliano",
+    "Kadane",
     "Leetcode",
+    "neet",
     "nums",
     "solvingcodingproblems",
+    "strs",
     "Subarray",
     "subarrays",
     "Udemy",
     "Unshift"
-  ]
+  ],
+  "editor.minimap.autohide": true,
+  "git.untrackedChanges": "separate",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "files.autoSave": "onFocusChange"
+  },
 }
