@@ -22,6 +22,6 @@ Potentially any data structure will help, but there's also the downside of addin
 
 Because [in Big O that makes our worst cases O(n)](https://www.bigocheatsheet.com/).
 
-# Resources:
+# Resources for this module
 
 1. [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)

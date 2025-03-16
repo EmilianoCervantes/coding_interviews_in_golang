@@ -43,7 +43,7 @@ func InterviewExampleSolutionCode(array1, array2 []rune) bool {
 	// What is the time complexity of your solution?
 	// O(n+m) --> =O(n) + O(m) = O(n)
 
-	// So, did we do better than O(n^2)? - Yes
+	// So, did we do better than O(n²)? - Yes
 }
 
 func InterviewExampleSolutionCode2(array1, array2 []rune) (rune, error) {

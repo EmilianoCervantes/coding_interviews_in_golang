@@ -3,7 +3,7 @@ package main
 /**
  * LEETCODE PROBLEM #217
  *
- * Description Directly from: https://leetcode.com/problems/contains-duplicate/description/
+ * Description Directly from: https://leetcode.com/problems/contains-duplicate/
  *
  * Given an integer array nums, return the first duplicated number for the first value that appears at least twice in the array, and return false if every element is distinct.
  *

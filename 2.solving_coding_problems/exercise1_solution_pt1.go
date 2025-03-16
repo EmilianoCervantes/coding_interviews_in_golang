@@ -20,7 +20,7 @@ func InterviewExampleSolution(array1, array2 []string) bool {
 	// We can ask:
 	// - Are the arrays sorted? - This can help us to optimize the solution
 	// - What are the sizes of the arrays? - If they are always small, like even 1000 elements, we can say we will use a nested loop because it will be always the same time.
-	// - Are the arrays of the same length? - If your initial solution is nested loops, it can either be O(n*m) or O(n^2).
+	// - Are the arrays of the same length? - If your initial solution is nested loops, it can either be O(n*m) or O(n²).
 	// - What do we want to return if we find or not a common element?
 
 	// What other issues can you think of?
@@ -45,5 +45,5 @@ func InterviewExampleSolution(array1, array2 []string) bool {
 
 	// What is the time complexity of your solution?
 	// O(n*m) - nested loops for different arrays
-	// O(n^2) - in the worst case scenario
+	// O(n²) - in the worst case scenario
 }

@@ -41,7 +41,7 @@ func MoveZeroesInitialThinking(nums []int) {
 
 	// BUT there are a few issues
 
-	// Essentially, I would end up with O(n^2) and it is not what I want
+	// Essentially, I would end up with O(n²) and it is not what I want
 }
 
 // NOW...
@@ -76,7 +76,7 @@ func MoveZeroesSolution1(nums []int) { // QUESTION AT THE END OF THE FOR LOOP
 				pointer2++
 			}
 		}
-	} // Is this O(n) or O(n^2)
+	} // Is this O(n) or O(n²)
 }
 
 // Now, there is an easier way, IT IS SIMILAR to solution 1

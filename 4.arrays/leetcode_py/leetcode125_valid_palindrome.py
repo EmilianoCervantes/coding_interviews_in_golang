@@ -29,6 +29,7 @@ s consists only of printable ASCII characters.
 """
 import re
 
+
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         # cleanStr = ''.join(filter(str.isalnum, s)) # Option 1
@@ -37,7 +38,7 @@ class Solution:
         # There are 2 ways:
         # 1) We need to reverse the cleaned string and compare
         # 2) We can have 2 pointers go letter by letter
-        # Because we could end up with an O(n^2) sol with option 1
+        # Because we could end up with an O(n²) sol with option 1
         # I'll go with 2
 
         pointer1 = 0
@@ -45,11 +46,12 @@ class Solution:
         while pointer1 <= pointer2:
             if cleanStr[pointer1] != cleanStr[pointer2]:
                 return False
-            
+
             pointer1 += 1
             pointer2 -= 1
 
         return True
+
 
 s = Solution()
 

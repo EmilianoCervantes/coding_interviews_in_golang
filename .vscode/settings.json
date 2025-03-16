@@ -1,23 +1,29 @@
 {
   "cSpell.words": [
     "Emiliano",
+    "heapify",
+    "Hoare",
+    "Introsort",
     "Kadane",
     "Leetcode",
+    "Lomuto",
     "neet",
     "nums",
+    "Quickselect",
     "solvingcodingproblems",
     "strs",
     "Subarray",
     "subarrays",
+    "Timsort",
     "Udemy",
     "Unshift"
   ],
   "editor.minimap.autohide": true,
+  "files.autoSave": "onFocusChange",
   "git.untrackedChanges": "separate",
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8",
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "files.autoSave": "onFocusChange"
-  },
+  }
 }

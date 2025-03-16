@@ -1,24 +1,37 @@
 # Let's dive into what is a data structure
 
+## Table of Contents
+
+- [Let's dive into what is a data structure](#lets-dive-into-what-is-a-data-structure)
+  - [Table of Contents](#table-of-contents)
+  - [1. Skip this readme if](#1-skip-this-readme-if)
+  - [2. What is a Data Structure?](#2-what-is-a-data-structure)
+  - [3. How computers store data](#3-how-computers-store-data)
+    - [RAM and data structures](#ram-and-data-structures)
+    - [Data Structures and the CPU](#data-structures-and-the-cpu)
+  - [4. Different Languages, different Data Structures?](#4-different-languages-different-data-structures)
+  - [5. Operations](#5-operations)
+- [Resources for this module](#resources-of-this-module)
+
 This is a short module.
 
 It's a theoretical one, just trying to explain/refresh people about what a data structure is.
 
-## Skip this readme if
+## 1. Skip this readme if
 
 If you are already familiar with data structures, feel free to skip this module.
 
 1. You feel you have a data structures foundation
 2. You googled and got the answers you needed and you are able to explain what a data structure is.
 
-## What is a Data Structure?
+## 2. What is a Data Structure?
 
 1. Collection of values
 2. A format that defines how those values/data is organized, stored, and processed by any computer.
 3. There are different data structures, each with their own applications and use cases.
 4. Don't use the same data structure over and over for everything. PLEASE.
 
-## How computers store data
+## 3. How computers store data
 
 Computers are made up of:
 
@@ -60,7 +73,7 @@ RAM for example, uses data structures to organize and store all the data it has 
 The way we build our code and our structures to keep track of the data we are manipulating makes it harder or easier for the CPU to go and look for that information.
 How much time it takes for the CPU for writing/reading the data we want to manipulate.
 
-## Different Languages, different Data Structures?
+## 4. Different Languages, different Data Structures?
 
 The way programming languages represent data structures can vary.
 
@@ -70,7 +83,7 @@ But that doesn't really matter as we can go and build our own implementation of 
 
 You can use what's already built-in the language, and also you can search how efficient it is and give it a go to do your own implementation.
 
-## Operations
+## 5. Operations
 
 As you are manipulating data in [almost any data structure you can](https://www.bigocheatsheet.com/):
 
@@ -84,6 +97,6 @@ While those are the basic, there're also other 2 day-to-day operations similar t
 1. Traversing - visiting each element in order for any process where every element is involved.
 2. Sorting
 
-## Resources
+# Resources for this module
 
 1. [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)

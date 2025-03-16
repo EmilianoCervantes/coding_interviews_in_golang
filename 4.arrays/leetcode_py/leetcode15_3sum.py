@@ -35,6 +35,8 @@ Constraints:
 """
 
 # Too slow
+
+
 class SolutionDeprecated:
     """
     If you try this in Leetcode, it will work for 309/313 testcases.
@@ -56,14 +58,14 @@ class SolutionDeprecated:
                 i != j, i != k, and j != k 
                 """
                 look_up = target - num
-            
+
                 if look_up in numbers_so_far:
                     pair = [look_up, nums[i]]
                     pair_as_string = f"{pair}"
                     if pair_as_string not in pairs_so_far:
                         pairs_so_far[pair_as_string] = pair_as_string
                         pairs_to_result.append(pair)
-            
+
                 numbers_so_far[num] = i
 
         return pairs_to_result
@@ -73,7 +75,7 @@ class SolutionDeprecated:
         Similar to the 2 sum problem but with an extra number to consider
         We need to start checking after we get the 3rd number.
         We need to look at our other saved numbers.
-        This is the O(n^2) solution.
+        This is the O(n²) solution.
         """
 
         results: list[list[int]] = []
@@ -83,7 +85,8 @@ class SolutionDeprecated:
             return results
 
         for position, num in enumerate(nums):
-            target = num * -1 # If the number is 1 we need to numbers that add up to -1 so the three together are 0.
+            # If the number is 1 we need to numbers that add up to -1 so the three together are 0.
+            target = num * -1
             found_pairs = self.__twoSum(nums, target, position)
 
             for pair in found_pairs:
@@ -95,7 +98,7 @@ class SolutionDeprecated:
                 if triplet_as_string not in results_dict:
                     results_dict[triplet_as_string] = triplet_as_string
                     results.append(triplet)
-        
+
         return results
 
 
@@ -110,8 +113,8 @@ class Solution:
         """
         if len(nums) < 3:
             return []
-        
-        results = set() # This will take care of the duplicate triplets without all the extra logic
+
+        results = set()  # This will take care of the duplicate triplets without all the extra logic
 
         positives = []
         zeroes = []
@@ -129,12 +132,12 @@ class Solution:
                     zeroes.append(num)
                 else:
                     continue
-        
+
         # From the zeroes we want 2 things only:
         # 1) The 0s triplet and 2) if there is a lonely 0 to complement a pair. E.g. [-1,1].
         # A pair of zeroes is useless.
         if len(zeroes) > 2:
-            results.add((0,0,0))
+            results.add((0, 0, 0))
 
         # Help to search faster and not iterate over the arrays over and over
         positives_set = set(positives)
@@ -156,7 +159,8 @@ class Solution:
                 positive2 = positives[pointer2]
                 negative_target = -1 * (positive1 + positive2)
                 if negative_target in negatives_set:
-                    results.add(tuple(sorted([negative_target, positive1, positive2])))
+                    results.add(
+                        tuple(sorted([negative_target, positive1, positive2])))
 
         # We can obviously do a small optimization here
         # But I'll leave this just to have everything together
@@ -165,14 +169,15 @@ class Solution:
                 negative2 = negatives[pointer2]
                 positive_target = -1 * (negative1 + negative2)
                 if positive_target in positives_set:
-                    results.add(tuple(sorted([negative1, negative2, positive_target])))
+                    results.add(
+                        tuple(sorted([negative1, negative2, positive_target])))
 
         return [list(x) for x in results]
 
 
 s = Solution()
 
-nums = [3,0,-2,-1,1,2]
+nums = [3, 0, -2, -1, 1, 2]
 print(f"s.threeSum({nums}): {s.threeSum(nums)}")
 
 # nums = [-1,0,1,2,-1,-4]

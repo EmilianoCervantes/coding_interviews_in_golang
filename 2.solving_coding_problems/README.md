@@ -1,15 +1,27 @@
 # Solving Coding Problems
 
+## Table of Contents
+
+- [Solving Coding Problems](#solving-coding-problems)
+  - [Table of Contents](#table-of-contents)
+  - [1. Skip this section if](#1-skip-this-section-if)
+  - [2. What are companies looking for?](#2-what-are-companies-looking-for)
+    - [Analytic Skills](#analytic-skills)
+    - [Coding Skills](#coding-skills)
+    - [Technical Skills](#technical-skills)
+    - [Communication Skills](#communication-skills)
+- [Resources for this module](#resources-of-this-module)
+
 This is a short module.
 
 It goes over a simple problem and the steps you have to go through.
 
-## Skip this section if
+## 1. Skip this section if
 
 1. You feel you have a data structures foundation
 2. You think you have enough coding interviews experience.
 
-## What are companies looking for?
+## 2. What are companies looking for?
 
 1. Analytic Skills
 2. Coding Skills
@@ -38,6 +50,6 @@ How you go from not knowing the problem to solving it.
 - Does your personality fit with the company's DNA?
 - Can you communicate well with other people?
 
-## Resources of this module
+# Resources for this module
 
 1. [How to: Work at Google — Example Coding/Engineering Interview](https://youtu.be/XKu_SEDAykw)
