@@ -62,7 +62,7 @@ The performance of your algorithms will plummet like crazy, which goes the oppos
 
 ## Counter point
 
-While using `arrays` for `queues` is definitely a bad choice, you can use `arrays` for stacks.
+While using `arrays` for _queues_ ❌ is definitely a bad choice, you can use `arrays` for _stacks_ ✅.
 
 ### Stacks is push and pop
 
@@ -76,3 +76,9 @@ Enqueue being a sort of unshift - so arrays are not doable, we want a O(1) opera
 
 Dequeue being a sort of pop is O(1)
 - Using Linked Lists we can also easily achieve this.
+
+# Resources for this module
+
+## Challenges
+
+1. [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
