@@ -70,3 +70,15 @@ For starters, Singly Linked Lists are tougher to code and to think about than Do
 I encourage you to try, it's a good exercise nevertheless.
 
 What is most important to me is for you to see the logic when coding a Linked List and all things you need to consider in my somewhat lengthy functions (which I know can be improved, but I opted to be thorough).
+
+# Resources for this module
+
+## Challenges
+
+1. [21.  Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+2. [148. Sort List](https://leetcode.com/problems/sort-list/description/)
+3. [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
+4. [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
+5. [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+6. [641. Design Circular Deque](https://leetcode.com/problems/design-circular-deque/)
+7. [2816. Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/)

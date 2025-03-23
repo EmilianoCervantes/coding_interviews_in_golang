@@ -12,10 +12,10 @@ type SinglyLinkedList struct {
 	length int
 }
 
-func (list *SinglyLinkedList) push(newValue string) { // O(n) BUT...
-	// We could make this  // O(1) if we are allowed to add the property "tail *Node" as part of the SLL in the interview
-	// Or you might be asked, how would this work/change if you have no "tail" property.
-
+// O(n) BUT...
+// We could make this  // O(1) if we are allowed to add the property "tail *Node" as part of the SLL in the interview
+// Or you might be asked, how would this work/change if you have no "tail" property.
+func (list *SinglyLinkedList) push(newValue string) {
 	newNode := Node{value: newValue}
 	if list.length == 0 { // O(1)
 		list.head = &newNode
@@ -25,7 +25,7 @@ func (list *SinglyLinkedList) push(newValue string) { // O(n) BUT...
 
 	currentNode := list.head
 
-	for i := 0; i < list.length; i++ { // O(n) because I made things trickier by not keeping track of the tail as a property
+	for i := range list.length { // O(n) because I made things trickier by not keeping track of the tail as a property
 		if i == list.length-1 {
 			currentNode.nextNode = &newNode
 			list.length++
@@ -36,9 +36,9 @@ func (list *SinglyLinkedList) push(newValue string) { // O(n) BUT...
 	}
 }
 
-func (list *SinglyLinkedList) insert(newValue string, insertPosition int) { // O(n) BUT...
-	// If we insert at position 0 = "unshift", it is O(1), contrary to arrays.
-
+// O(n) BUT...
+// If we insert at position 0 = "unshift", it is O(1), contrary to arrays.
+func (list *SinglyLinkedList) insert(newValue string, insertPosition int) {
 	newNode := Node{value: newValue}
 
 	if insertPosition == 0 { // O(1)
@@ -73,7 +73,8 @@ func (list *SinglyLinkedList) insert(newValue string, insertPosition int) { // O
 	}
 }
 
-func (list *SinglyLinkedList) removeAt(position int) string { // O(n)
+// O(n)
+func (list *SinglyLinkedList) removeAt(position int) string {
 	valueErased := ""
 	currentNode := list.head
 
